@@ -5,13 +5,15 @@ Di sicuro se ne avanzo una fetta devo ricordarmi di metterla in frigo, non come 
 1. Ordinare la pizza:
   - Guardare il listino
   - Scegliere la pizza
-     ? Se è presente la piazza prosciutto e funghi
-       - Scegliere la pizza
-     : Altrimenti ne scelgo un altra
+     ? Se è presente la pizza prosciutto e funghi
+       - Scegliere la pizza prosciutto e funghi
+     : Altrimenti 
+       - Sceglierne un'altra
   - Chiamo la pizzeria
   - Ordino la pizza
 
 2. Mangiare la pizza:
-  ? Se avanza un pezzo di pizza
+  ? Se avanza almeno un pezzo di pizza o più pezzi
     - Metterla nel frigo
-  : Altrimenti buttare la scatola            
+  : Altrimenti 
+    - Buttare la scatola            
